@@ -9,6 +9,10 @@ class Person {
         println("Hello $name, My Name Is $firstName")
     }
 
+    fun sayHello(firstNameParam: String, lastNameParam: String) {
+        println("Hello $firstNameParam $lastNameParam, My Name Is $firstName")
+    }
+
     fun run(){
         println("I'm Run")
     }
